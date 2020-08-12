@@ -7,17 +7,17 @@ new Vue({
     menu: "Menu",
     btn: "なにが出るかな？",
   },
-  methods:{
-    onclick: function(){
+  methods: {
+    onclick: function () {
       this.number = Math.floor(Math.random() * 5);
-      
+
       curry = "カレーライス";
       sushi = "寿司";
       spa = "スパゲッティ";
       humb = "ハンバーガー";
       ramen = "ラーメン";
-      
-      switch(this.number){
+
+      switch (this.number) {
         case 0:
           this.btn = curry;
           break;
